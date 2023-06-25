@@ -1,0 +1,114 @@
+main{
+  section{
+    div{
+      .container {
+        max-width: 90rem;
+        margin: 2rem auto;
+        padding: 0px 2rem;
+      }
+    }
+    div{
+      .row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+    div{
+      .info {
+        display: flex;
+        flex-direction: column;
+
+        .short-info {
+          color: $rojo;
+          font-size: 1.5rem;
+          margin-bottom: 0.9rem;
+        }
+       .hero-heading {
+          font-size: 3rem;
+          margin-bottom: 0.3rem;
+        }
+       .hero-sub-heading {
+          font-size: 0.9rem;
+          opacity: 0.7;
+        }
+        .user {
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          border: 2px solid $rojo;
+        }
+       
+        button {
+          font-size: 2rem;
+          padding: 0.6rem 1rem;
+          font-weight: bold;
+          color: $rojo;
+          background-color:linear-gradient(to right, $rojo, $azul);
+          box-shadow: $blanco (100, 100, 111, 0.2) 0px 7px 29px 0px;
+          border-radius: 10px;
+          
+          cursor: pointer;
+          border: none;
+  
+          &:hover {
+              background: $blanco;
+              outline: 1px solid $rojo;
+              color: $rojo;
+              border: none;
+            }
+        }
+        .learn-more {
+          align-self: start;
+          margin-top: 3rem;
+        }
+        .img-fluid {
+          max-width: 100%;
+        }
+        .users {
+          display: flex;
+          align-items: center;
+          margin: 1rem 0px;
+        }
+      }
+
+    }
+  }
+    
+    
+    
+    
+    
+} 
+  /* estilo page PORTAL DE ADOPCIONES*/
+
+  .galeriadeimgs{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content:space-around;
+  }
+
+  .tituloportal{
+    margin: 2rem;
+    padding: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+  }
+
+/*estilo page NOSOTROS*/
+
+.nosotrostxt{
+  margin: 30px;
+  padding: 20px;
+  line-height: 2;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: medium;
+}
+  
+
+
+
+
+

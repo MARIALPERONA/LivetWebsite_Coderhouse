@@ -1,0 +1,35 @@
+@import"var";
+@import"header";
+@import"main";
+@import"footer";
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 1rem;
+    padding: 0.5rem;
+    line-height: 1.5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: $azul;
+    color: $blanco;
+}
+
+/* media queries */
+  
+@media screen and (min-width: 320px) {
+    .items {
+      display: none;
+    }
+  
+    .row {
+      grid-template-columns: 1fr;
+    }
+    .learn-more {
+      align-self: start;
+      margin: 1rem 0px;
+    }
+  }
+  

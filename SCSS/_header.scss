@@ -1,0 +1,47 @@
+
+  header{
+    nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 3rem;
+        align-items: center;
+        div{
+          .logo img {
+            width: 100px;
+            height: 100px;
+            border-radius: 30px;
+            outline: 3px solid $blanco;
+        }
+          }
+          .items {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            border-radius: 20px;
+            outline: 1px solid $blanco;
+            padding: 10px;
+            font-size: 2rem;
+            & a:link {
+                text-decoration: none;
+                color: $blanco;
+                font-size: 1.5rem;
+                font-weight: bold;
+              }
+              
+            & a:hover {
+                color: $rojo;
+              }
+              
+              .active {
+                color: $rojo !important;
+              }
+              
+          }
+
+      }
+
+  }
+
+
+  
+
