@@ -107,8 +107,48 @@ main{
   font-size: medium;
 }
   
+/* estilo pagina zoonosis*/
+h5{
+  margin: 1rem;
+  padding: 1.5rem;
+  justify-content: center;
+  border-color: antiquewhite solid;
+
+}
+h2{
+  font-weight: bold;
+  color: $rojo;
+  margin: 1rem;
+  padding: 1.5rem;
+  justify-content: center;
+  border-color: antiquewhite solid;
+  background-image: linear-gradient(to left,$blanco,$azul);
 
 
+}
 
 
+/*estilo pagina donaciones*/
+
+h1{
+  margin: 1rem;
+  padding: 1.5rem;
+  justify-content: center;
+  border-color: antiquewhite solid;
+
+}
+h3{
+  margin: 1rem;
+  padding: 1.5rem;
+  justify-content: center;
+  border-color: antiquewhite solid;
+
+}
+h4{
+  margin: 1rem;
+  padding: 1.5rem;
+  justify-content: center;
+  border-color: antiquewhite solid;
+
+}
 

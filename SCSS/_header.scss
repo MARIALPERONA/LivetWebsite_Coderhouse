@@ -2,25 +2,24 @@
   header{
     nav {
         display: flex;
-        justify-content: space-between;
-        padding: 1rem 3rem;
-        align-items: center;
+        padding: 0.5rem 1.5rem;
+        align-items: first baseline;
         div{
           .logo img {
-            width: 100px;
-            height: 100px;
+            width: 80px;
+            height: 80px;
             border-radius: 30px;
             outline: 3px solid $blanco;
         }
           }
           .items {
             display: flex;
-            align-items: center;
-            gap: 30px;
+            align-items: baseline;          
+            gap: 10px;
             border-radius: 20px;
             outline: 1px solid $blanco;
             padding: 10px;
-            font-size: 2rem;
+            font-size: 1rem;
             & a:link {
                 text-decoration: none;
                 color: $blanco;
